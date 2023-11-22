@@ -1,0 +1,27 @@
+{
+  "name": "calendar-generator",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "calendar-link": "^2.6.0",
+    "dayjs": "^1.11.10",
+    "vue": "^3.3.8"
+  },
+  "devDependencies": {
+    "@vicons/fa": "^0.12.0",
+    "@vicons/utils": "^0.1.4",
+    "@vitejs/plugin-vue": "^4.5.0",
+    "naive-ui": "^2.35.0",
+    "sass": "^1.69.5",
+    "typescript": "^5.2.2",
+    "vfonts": "^0.0.3",
+    "vite": "^5.0.0",
+    "vue-tsc": "^1.8.22"
+  }
+}
