@@ -200,7 +200,7 @@ const onIsAllDayChanged = (value: boolean): void => {
               <n-form-item>
                 <n-space justify="end">
                   <n-button type="primary" @click="handleSubmit">
-                    Generate Google Event
+                    產生連結
                   </n-button>
                 </n-space>
               </n-form-item>
@@ -210,11 +210,13 @@ const onIsAllDayChanged = (value: boolean): void => {
 
         <!--  Result  -->
         <n-layout>
-          <n-input v-model:value="resultValue" type="textarea" placeholder="" readonly />
-          <n-space justify="end">
-            <n-button type="primary" @click="handleMakeEvent" size="large">
-              Create Event
-            </n-button>
+          <n-space vertical>
+            <n-input v-model:value="resultValue" type="textarea" placeholder="" readonly />
+            <n-space justify="end">
+              <n-button type="primary" @click="handleMakeEvent" size="large">
+                開啟連結
+              </n-button>
+            </n-space>
           </n-space>
         </n-layout>
       </div>
