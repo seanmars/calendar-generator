@@ -118,6 +118,11 @@ const handleSubmit = () => {
 
 const handleMakeEvent = () => {
   // open the url in a new window
+  if (!resultValue.value) {
+    return;
+  }
+
+  window.open(resultValue.value);
 };
 
 const onIsAllDayChanged = (value: boolean): void => {
